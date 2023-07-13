@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* nav bar code start */
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px  200px;
+}
+/* logo code start */
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+.sp1{
+    color: #01aef0;
+}
+.sp2{
+    color: #01aef0;
+}
+.sp3{
+    color: #01aef0;
+}
+.spa{
+    color: gray;
+}
+.spb{
+    color: gray;
+}
+.spc{
+    color: gray;
+}
+/* logo code end */
+
+
+.navigation a{
+    color: #01aef0;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+}
+/* nav bar  code end */
+
+
+/* main section code start */
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/backgroundlogo.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.Main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    color:  #01aef0 ;
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.main h3{
+    color: #000;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #01aef0;
+    text-decoration: none;
+    font-size: 0.7em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 1s ease;
+}
+
+.main-btn:hover{
+    background-color: #601cfc;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: #000;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+/* main section code end*/
+
+
+
+/* services code start */
+.title{
+    display: flex;
+    justify-content: center;
+    color: #01aef0;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 1s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #01aef0;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #01aef0;
+    font-size: 1.1em;
+    margin: 10px;
+}
+/* services code end */
+
+
+/* offers cards code start */
+.offers{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.offers.content{
+    margin-top: 30px;
+}
+
+.offers-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.8s ease;
+}
+
+.offers-card:hover{
+    transform: scale(1.1);
+}
+
+.offers-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.offers-image img{
+    width: 100%;
+}
+
+.offers-info{
+    padding: 1em;
+    background-color: cornsilk;
+}
+
+.offers-category{
+    font-size: 0.8em;
+    color: #000;
+}    
+
+.offers-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+/* MORE DETAILS FOR ALL CARDS */
+.more-details{
+    text-decoration: none;
+    color: #01aef0;
+}
+
+.more-details:hover{
+    color: #601cfc;
+}
+
+/* offers cards code end */
+
+
+/* top medicine companies code start */
+.topmedico{
+    background-color: white;
+}
+
+.top1 .content{
+    margin-top: 30px;
+
+}
+
+.top1-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    min-height: 13em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.8s ease;
+}
+
+.top1-card:hover{
+    transform: scale(1.1);
+}
+
+.top1-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.top1-image img{
+    width: 100%;
+}
+
+.top1-info{
+    padding: 1em;
+    background-color: cornsilk;
+}
+
+.top1-category{
+    font-size: 0.8em;
+    color: #000;
+}    
+
+.top1-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/* top medicine companies code end */
+
+
+/* top cosmetics companies code start */
+
+.topco{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.top2 .content{
+    margin-top: 30px;
+}
+
+.top2-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 13em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.8s ease;
+}
+
+.top2-card:hover{
+    transform: scale(1.1);
+}
+
+.top2-card:hover .top2-image{
+    opacity: 0.9;
+}
+
+.top2-image img{
+    width: 100%;
+}
+
+.top2-info{
+    padding: 1em;
+    background-color: cornsilk;
+}
+
+.top2-category{
+    font-size: 0.8em;
+    color: #000;
+}    
+
+.top2-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+/* top cosmetics companies code end */
+
+
+/* TOP 10 DOCTORS CODE START */
+
+.topdo{
+    background-color: #fff;
+}
+.topdo .content{
+    margin-top: 30px;
+}
+.top3-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    min-height: 13em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.8s ease;
+}
+.top3-card:hover{
+    transform: scale(1.1);
+}
+.top3-card:hover .top3-image{
+    opacity: 0.9;
+}
+.top3-image img{
+    width: 100%;
+}
+.top3-info{
+    padding: 1em;
+    background-color: cornsilk;
+}
+.top3-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.top3-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+/* TOP 10 DOCTORS CODE END */
+
+
+
+/* TOP 10 nurses CODE START */
+
+.topnu{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.topnu .content{
+    margin-top: 30px;
+}
+
+.top4-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 13em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.8s ease;
+}
+
+.top4-card:hover{
+    transform: scale(1.1);
+}
+
+.top4-card:hover .top4-image{
+    opacity: 0.9;
+}
+
+.top4-image img{
+    width: 100%;
+}
+
+.top4-info{
+    padding: 1em;
+    background-color: cornsilk;
+}
+
+.top4-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.top4-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/* TOP 10 nurses CODE end */
+
+
+/* contact us code start*/
+
+.contactus{
+    background-color: #fff;
+}
+
+.contactus .content{
+    margin-top: 30px;
+}
+
+.contact-card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 1s ease;
+}
+
+.contact-card:hover{
+    transform: scale(1.1);
+}
+
+.contactus .icon{
+    font-size: 4.5em;
+}
+
+.contact-info{
+    text-align: center; 
+}
+
+.contact-info h3{
+    color: #000;
+}
+
+.contact-info p{
+    font-size: 1em;
+}
+
+/* contact us code END*/
+
+
+
+/* footer code start */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color:#01aef0 ;
+}
+
+.social-icons-f a{
+    color: white;
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+/* footer code end */
+
